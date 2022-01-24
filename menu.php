@@ -1,6 +1,5 @@
 <?php
-/*
-  Recipe for one pan of carrot_cutlets  (6 ):
+/*Cutlets Recipe:
  1 carrots,
  1 egg,
  100 ml milk,
@@ -9,14 +8,13 @@
  1 ch lozh salt,
 */
 
-function carrot_cutlets
+function cookCutlets
 (int $carrots,
  int $egg,
  int $milk,
  int $butter,
  int $manka,
  int $salt,
-
  string $wishes)
 {
 	echo 
@@ -31,4 +29,4 @@ function carrot_cutlets
 	 /*Serve carrot cutlets warm or cooled as an independent dish. 
      It can be with sour cream or with milk or cream sauce. Enjoy your meal!*/
  }	 
- carrot_cutlets(1, 1, 100, 20, 55, 1,'Bon Appetit');	 
+ carrot_cutlets(1, 1, 100, 20, 55, 1, 'Bon appetit');	 
