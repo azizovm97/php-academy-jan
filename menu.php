@@ -1,5 +1,6 @@
 <?php
-/*Cutlets Recipe:
+/*
+Cutlets Recipe:
  1 carrots,
  1 egg,
  100 ml milk,
@@ -29,4 +30,4 @@ function cookCutlets
 	 /*Serve carrot cutlets warm or cooled as an independent dish. 
      It can be with sour cream or with milk or cream sauce. Enjoy your meal!*/
  }	 
- carrot_cutlets(1, 1, 100, 20, 55, 1, 'Bon appetit');	 
+ cookCutlets(1, 1, 100, 20, 55, 1, 'Bon appetit');	 
