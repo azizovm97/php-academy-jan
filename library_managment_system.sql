@@ -177,5 +177,7 @@ VALUES
 ( NULL, NOW(), 2),
 ( NULL, NOW(), 3);
 
+SELECT books.title, authors.fullname FROM books
+JOIN authors ON authors.id = books.author_id;
 
-SELECT books.ttile, authors.fullname, book_reservations.created_at, book_items.due_date, account.fullname FROM book_items;
+--SELECT books.ttile, authors.fullname, book_reservations.created_at, book_items.due_date, account.fullname FROM book_items;
